@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hack_speed_meter/services/network_service.dart';
 import 'dart:async';
 
 import '../model/program_consume.dart';
+import '../services/network_service.dart';
 
 class ProgramsNetworkUsageView extends StatefulWidget {
   const ProgramsNetworkUsageView({super.key, required this.streamController});
@@ -26,7 +26,7 @@ class _ProgramsNetworkUsageViewState extends State<ProgramsNetworkUsageView> {
           builder: (context, snapshot) {
             if (snapshot.hasData) {
               List<dynamic> jsonData = snapshot.data!;
-              List<ProgramConsume> models = programConsumeService(jsonData);
+              List models = programConsumeService(jsonData);
 
               return ListView.builder(
                 itemCount: models.length,

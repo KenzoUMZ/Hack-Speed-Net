@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:hack_speed_meter/view/programs_network_usage_view.dart';
-import 'package:hack_speed_meter/view/speed_test_view.dart';
+import 'programs_network_usage_view.dart';
+import 'speed_test_view.dart';
 
 /// Flutter code sample for [PageView].
 

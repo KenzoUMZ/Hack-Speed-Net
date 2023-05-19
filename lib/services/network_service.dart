@@ -1,5 +1,4 @@
-import 'package:hack_speed_meter/model/network_statics.dart';
-import 'package:hack_speed_meter/model/program_consume.dart';
+import '../model/program_consume.dart';
 
 List<ProgramConsume> programConsumeService(List<dynamic> jsonData) {
   Set<String> uniqueNames = Set<String>();

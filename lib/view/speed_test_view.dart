@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:hack_speed_meter/model/network_statics.dart';
+
+import '../model/network_statics.dart';
 
 class SpeedTestView extends StatefulWidget {
   const SpeedTestView({super.key});

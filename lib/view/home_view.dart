@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hack_speed_meter/view/control_view.dart';
+
+import 'control_view.dart';
+
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
